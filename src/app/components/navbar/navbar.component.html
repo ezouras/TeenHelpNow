@@ -1,0 +1,21 @@
+<nav>
+<div class="nav-container">
+  <div class="left-menu-items">
+    <div class="menu-item-container" *ngFor="let menuItem of menuItems"
+        (click)="selectMenuItem(menuItem)"
+    >
+      <a [routerLink]=menuItem.route>
+        <div [ngClass]="{'active-menu-item': selectedItem == menuItem.menuName}"
+          class="menu-item">{{menuItem.menuName}}
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="middle-home-link">
+    <h1>ThNOW</h1>
+  </div>
+  <div class="right-signup">
+    <div class="button"><a>Sign up</a></div>
+  </div>
+</div>
+</nav>

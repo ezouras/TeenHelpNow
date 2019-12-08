@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+$white:#ffff;
+$grey:#e1e9f0;
+$greyCThru:rgba(225,233,240,0.3);
+$navy:#1e3044;
+$darkBlue:#1c2329;
+$lightGreen:rgb(177,189,137);
+$orange:#ff6642;
+$lightOrange:#ff937a;
+$subTitleText: 'Josefin Sans', sans-serif;
+$largeTitleText: 'DM Serif Display', serif;
+$regText: 'Quicksand', sans-serif;
+$lotsOfText: 'Archivo Narrow', sans-serif;
+$paddingLeftRight:3.125rem;
+
+
+
+html, body{
+margin:0;
+padding:0;
+box-sizing:border-box;
+background:$navy;
+color:$grey;
+font-family:$regText;
+
+}
